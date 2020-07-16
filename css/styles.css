@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #212121;
+    background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+    font-family: 'Mallanna', sans-serif;
+    font-size: 22px;
+}
+
+img {
+    width: auto ;
+    max-width: 100% ;
+    height: auto ;
+}
+
+button{
+    font-family: 'Righteous', cursive;
+}
+
+.info-dropdown{
+    margin: 0;
+}
+
+.info-section{
+    margin: 0;
+}
+
+.info-card{
+    color: #fff;
+    background-color: #403f40;
+    background-image: url("https://www.transparenttextures.com/patterns/carbon-fibre-big.png");
+    margin-top: 5px;
+    font-family: 'Righteous', cursive;
+}
+
+.cover-page{
+    background-image: url("images/unemployment.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 23rem 1rem;
+}
+
+.quote{
+    font-size: 1.8rem;
+    font-family: 'Bree Serif', serif;
+}
+
+.question-section{
+    text-align: center;
+    margin: 0;
+}
+
+.card{
+    width: 80%;
+    margin: 30px auto;
+}
+
+.card-body{
+    text-align: left;
+}
+
+.card-header{
+   font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+
+.title-heading{
+    font-size: 5rem;
+    font-weight: bolder;
+    color: #e12c05;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+.footer{
+    color: rgb(75, 75, 75);
+    text-align: left;
+}
+
+.footer-header{
+    font-family: 'Montserrat Subrayada', sans-serif;   
+}
+
+@media (max-width: 900px){
+
+    .cover-page{
+        background-image: url("images/unemployment-mobile-v.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .title-heading{
+        font-size: 3rem;
+    }
+    .quote{
+        font-size: 1rem;
+    }
+}
+
+
